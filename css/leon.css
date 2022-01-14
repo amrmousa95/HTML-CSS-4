@@ -380,10 +380,20 @@ html {
     letter-spacing: -3px;
     margin:0;
 }
+@media (max-width: 767px) {
+    .contact .text h3:first-of-type {
+        font-size: 25px;
+    }
+}
 .contact .text h3 a {
     font-size: 34px;
     text-decoration: none;
     color: var(--main-color);
+}
+@media (max-width: 767px) {
+    .contact .text h3 a {
+        font-size: 20px;
+    }
 }
 .contact .text p {
     margin: 0;
