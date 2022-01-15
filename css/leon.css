@@ -17,6 +17,7 @@ body {
 }
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 .parent {
@@ -330,10 +331,10 @@ html {
     position: absolute;
     border-left: 80px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
-    width: 100px;
+    width: 30px;
     height: 240px;
     top: -20px;
-    right: -130px;
+    right: -50px;
     z-index: -2;
 }
 @media (max-width: 991px) {
